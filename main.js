@@ -51,3 +51,18 @@ console.log(solution(10))
 // }
 // console.log(result(10))
 >>>>>>> ec7940802c76ed39f3623a90f5a66ff4a7172721
+
+function fizzBuzz(num) {
+    for(let i = 0; i <= num) {
+        if(i % 3 === 0 || i % 5 === 0) {
+            console.log('FizzBuzz')
+        }else if(i % 3 === 0) {
+            console.log('Fizz')
+        }else if(i % 5 === 0) {
+            console.log('Buzz')
+        }else {
+            console.log(i)
+        }
+    }
+}
+fizzBuzz(100)
