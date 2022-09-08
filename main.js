@@ -51,6 +51,7 @@ console.log(solution(10))
 // }
 // console.log(result(10))
 >>>>>>> ec7940802c76ed39f3623a90f5a66ff4a7172721
+<<<<<<< HEAD
 
 function fizzBuzz(num) {
     for(let i = 0; i <= num) {
@@ -66,3 +67,5 @@ function fizzBuzz(num) {
     }
 }
 fizzBuzz(100)
+=======
+>>>>>>> 306b273ab0a40d89ce674f33462356fd72388e7a
